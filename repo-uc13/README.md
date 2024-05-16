@@ -1,0 +1,3 @@
+# uc13_DesenvolvimentoDeSistemasParaDispositivosM-veis
+
+A UC13: Desenvolvimento de Sistemas para Dispositivos Móveis introduz os alunos aos conceitos e ferramentas para o desenvolvimento de aplicativos móveis robustos e escaláveis para diferentes plataformas, como Android e iOS. A disciplina aborda desde a análise de requisitos e projeto de interface até a implementação, testes e deployment de aplicativos móveis, considerando as características e restrições de cada plataforma. Os alunos aprenderão a utilizar linguagens de programação, frameworks e ferramentas de desenvolvimento para criar aplicativos móveis completos e profissionais.
