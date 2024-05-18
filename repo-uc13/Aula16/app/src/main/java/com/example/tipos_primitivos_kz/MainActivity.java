@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         EditText txtstr = findViewById(R.id.str_input);
         String testestr = "";
         testestr= (txtstr.getText().toString());
-        Toast.makeText(this,"A String  digitado é: "+ testestr, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"A String  digitado é: "+ testestr, Toast.LENGTH_LONG).show();
     }
 
 
