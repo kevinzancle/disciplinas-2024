@@ -42,6 +42,7 @@ public class Case2 extends AppCompatActivity {
     }
 
     public void returnCase1 (View view) {
+
         finish();
     }
 

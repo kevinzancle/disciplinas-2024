@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Aula18_EstruturaDeDecisao"
         tools:targetApi="31">
         <activity
+            android:name=".Case4"
+            android:exported="false" />
+        <activity
             android:name=".Case3"
             android:exported="false" />
         <activity
