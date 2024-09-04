@@ -25,67 +25,25 @@ body{
 
 }
 .box table{
-    border-collapse: collapse;
+    width: 100%; /*Definiu uma width de 10%*/
+    margin-bottom: 20px; /*Definiu uma margin bottom para a tabela*/
+    border-collapse: collapse; /*Uniu a borda das tabelas*/
 }
-.box td, thead, th{
-    border: 1px solid #ddd;
-    padding :10px 300px 10px 20px;
+.box td, th{
+    border: 1px solid #ddd; /*Definiu uam borda*/
+    padding: 8px; /*Definiu padding para os elementos da tabela*/
+    text-align: left; /*alinhou os textos da tabela*/
 }
 .box thead{
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; /*Definiu cor de fundo para o cabeçalho da tabela */
 }
 
-.box:last-child td, thead, th{
-    border: 1px solid #ddd;
-    padding :8px 90px 8px 16px;
-}
 .box table{
-    margin: 0 auto;
+    margin: 0 auto; /*Alinhou a tabela ao centro */ 
 }
 .box caption{
-    font-weight: bold;
+    font-weight: bold; /*Colocou a fonte em negrito*/
+    caption-side: top; /*Definiu a orientação do caption side*/
+    margin-bottom: 10px; /*Definiu uam margin bottom para o caption*/
 }
 
-.card img{
-    width: 100%; /*definiu a largura das imagens da classe card*/
-    border-radius: 5px; /*arredonda as extremidades das imagens*/
-}
-
-.column{
-    width: 48%; /*definiu a largura dos elementos da classe*/
-}
-
-.two-columns{
-    display: flex; /*definiu o display como flex-box, deixando os filhos responsivos*/
-    justify-content: space-between; /*criou espaços iguais entre os elementos, sendo espaços responsivos*/
-}
-
-.three-columns{
-    display: flex; /*definiu o display como flex-box, deixando os filhos responsivos*/
-    justify-content: space-between; /*criou espaços iguais entre os elementos, sendo espaços responsivos*/
-
-}
-
-.columns-third{
-    width: 32%; /*define a largura dos elementos com esta classe*/
-}
-
-code{
-    background-color: #f9f9f9; /*define a cor de fundo da classe code*/
-    padding: 2px 4px; /*deiniu espaçamento entre elemento e borda*/
-    border-radius: 3px; /*arredondou as bordas da classe code*/
-}
-
-blockquote{
-    border-left: 4px solid #ddd; /*definiu a borda esquerda da classe*/
-    margin: 10px 0; /*definiu espaçamento entre elementos ao lado*/
-    padding-left: 10px; /*definiu o espaçemto a esquerda entre o elemento e a borda*/
-    color: #666; /*definiu a cor de texto*/
-    font-style: italic; /*estilizou a fonte para itálico*/
-}
-
-.highlight{
-    background-color: #ffe0b3; /*definiu a cor de fundo da classe*/
-    padding: 5px; /*definiu o espaçamento entre o elemento e sua borda*/
-    border-radius: 5px; /*arredondou as extremidades da borda*/
-}
