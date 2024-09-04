@@ -26,52 +26,29 @@ body{
 }
 
 .box summary{
-    margin-bottom: 10px;
+    margin-bottom: 10px; /*Definiu uma margem bottom para o sumário*/
+    background-color: #ddd; /*Definiu uma cor de fundo para o sumário*/
+    padding: 7px; /*Definiu um padding para o sumário*/
 }
 .box p, summary, blockquote{
-    margin-left: 10px;
+    margin-left: 10px; /*Definiu margem á esquerda para os parágrafos, sumário e para o blockquote*/
 }
 .box li{
-    display: inline;
+    display: inline; /*Definiu o display da lista como inline*/
 }
 .box a{
-    text-decoration: none;
+    text-decoration: none; /*Retirou decorações do elemento a*/
 }
 .box:last-child a{
-    text-decoration: underline;
+    text-decoration: underline; /*Colocou decoração abaixo apenas do último a*/
 }
 .box img{
-    display: block;
-    margin-bottom: 5px;
+    display: block; /*Definiu o display como block*/
+    margin-bottom: 5px; /*Definiu uam margin bottom para as imagens*/
 }
 
 .container h1,h2, h3, h4{
-    margin-left: 10px
-}
-
-
-.card img{
-    width: 100%; /*definiu a largura das imagens da classe card*/
-    border-radius: 5px; /*arredonda as extremidades das imagens*/
-}
-
-.column{
-    width: 48%; /*definiu a largura dos elementos da classe*/
-}
-
-.two-columns{
-    display: flex; /*definiu o display como flex-box, deixando os filhos responsivos*/
-    justify-content: space-between; /*criou espaços iguais entre os elementos, sendo espaços responsivos*/
-}
-
-.three-columns{
-    display: flex; /*definiu o display como flex-box, deixando os filhos responsivos*/
-    justify-content: space-between; /*criou espaços iguais entre os elementos, sendo espaços responsivos*/
-
-}
-
-.columns-third{
-    width: 32%; /*define a largura dos elementos com esta classe*/
+    margin-left: 10px; /*definiu margem a esquerda para todos os títulos*/
 }
 
 code{
@@ -86,10 +63,4 @@ blockquote{
     padding-left: 10px; /*definiu o espaçemto a esquerda entre o elemento e a borda*/
     color: #666; /*definiu a cor de texto*/
     font-style: italic; /*estilizou a fonte para itálico*/
-}
-
-.highlight{
-    background-color: #ffe0b3; /*definiu a cor de fundo da classe*/
-    padding: 5px; /*definiu o espaçamento entre o elemento e sua borda*/
-    border-radius: 5px; /*arredondou as extremidades da borda*/
 }
