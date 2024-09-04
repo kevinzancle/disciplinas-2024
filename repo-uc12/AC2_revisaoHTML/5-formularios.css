@@ -25,66 +25,44 @@ body{
 
 }
 
+.box input, select, button{
+    padding: 8px; /*Definiu padding para o input, select e button*/
+}
+
+.box button{
+    margin-top: 10px; /*Definiu uma margem no topo*/
+}
+
+.box label,input{
+    padding-bottom: 10px; /*Definiu padding bottom */
+    padding-top: 10px; /*Definiu padding no topo*/
+}
+
 
 .box fieldset{
-    display: flex;
-    border-color: #ddd;
-    margin: 0 auto;
-    flex-direction: column;
+    display: flex;/*Definiu o isplay como flex*/
+    border-color: #ddd; /*Definiu a cor da borda*/
+    margin: 0 auto; /*Alinhou ao centro*/
+    flex-direction: column; /*Definiu a direção do flex*/
+    border-radius: 5px; /*Arredondou as bordas*/
 }
 .two-columns {
-    display: flex;
-    
+    display: flex; /*Definiu o display da segunda coluna como flex*/
+    justify-content: space-between; /*criou espaços iguais entre os elementos, sendo espaços responsivos*/
 }
   
 .column {
-    display: flex;
-    width: 100%; 
-    flex-direction: column;
+    display: flex; /*Definiu o display da primeira coluna como flex*/
+    width: 48%; /*Definiu a width*/
+    flex-direction: column; /*Definiu a direção do flex*/
     
 }
 
-
-.card img{
-    width: 100%; /*definiu a largura das imagens da classe card*/
-    border-radius: 5px; /*arredonda as extremidades das imagens*/
+#arquivo{
+    border: 1px solid #ddd; /*Criou uam borda*/
+    border-radius: 5px; /*Arredondou as bordas*/
 }
 
-.column{
-    width: 48%; /*definiu a largura dos elementos da classe*/
-}
-
-.two-columns{
-    display: flex; /*definiu o display como flex-box, deixando os filhos responsivos*/
-    justify-content: space-between; /*criou espaços iguais entre os elementos, sendo espaços responsivos*/
-}
-
-.three-columns{
-    display: flex; /*definiu o display como flex-box, deixando os filhos responsivos*/
-    justify-content: space-between; /*criou espaços iguais entre os elementos, sendo espaços responsivos*/
-
-}
-
-.columns-third{
-    width: 32%; /*define a largura dos elementos com esta classe*/
-}
-
-code{
-    background-color: #f9f9f9; /*define a cor de fundo da classe code*/
-    padding: 2px 4px; /*deiniu espaçamento entre elemento e borda*/
-    border-radius: 3px; /*arredondou as bordas da classe code*/
-}
-
-blockquote{
-    border-left: 4px solid #ddd; /*definiu a borda esquerda da classe*/
-    margin: 10px 0; /*definiu espaçamento entre elementos ao lado*/
-    padding-left: 10px; /*definiu o espaçemto a esquerda entre o elemento e a borda*/
-    color: #666; /*definiu a cor de texto*/
-    font-style: italic; /*estilizou a fonte para itálico*/
-}
-
-.highlight{
-    background-color: #ffe0b3; /*definiu a cor de fundo da classe*/
-    padding: 5px; /*definiu o espaçamento entre o elemento e sua borda*/
-    border-radius: 5px; /*arredondou as extremidades da borda*/
+#opcao1, #opcao2, #opcao3,#item1, #item2, #item3{
+    width: 100%; /*Definiu a width*/
 }
