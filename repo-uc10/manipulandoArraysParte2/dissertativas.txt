@@ -1,0 +1,54 @@
+Questões Dissertativas
+
+Nível Iniciante:
+
+1. Descreva duas maneiras diferentes de criar um array vazio em
+JavaScript.
+
+const vazio = [] e const vazio = new Array()
+
+2. Explique a diferença entre criar um array usando colchetes [] e
+usando o construtor new Array().
+
+ O new Array geralmente é utilizado para determinar um comprimento específico, diferente do array[]
+
+3. Como você pode adicionar elementos a um array após sua
+criação? Mencione pelo menos dois métodos.
+
+push() e unshift()
+
+Nível Iniciante para Intermediário:
+
+1. Explique o que é o método Array.from() e forneça um exemplo de
+uso.
+
+Ele é usado para converter objetos em arrays. Pode ser utilizado para trandformar uma String em array.
+
+2. Descreva a diferença entre Array.of() e o construtor Array(). Por
+que Array.of() foi introduzido?
+
+O Array() cria arrays vazios, o Array.of() pode criar um elemento único, diferente do Array(), sendo seu diferencial.
+
+3. Como você criaria um array com 5 elementos, todos inicializados
+com o valor zero? Forneça pelo menos duas abordagens
+diferentes.
+
+const array = new Array(5).fill(0); | const array = Array.from({ length: 5 }, () => 0);
+
+Questões de Múltipla Escolha
+
+Nível Iniciante:
+
+1- C
+2- B
+3- B
+
+Nível Iniciante para Intermediário:
+
+1- B
+2- B
+3- B
+
+
+
+
