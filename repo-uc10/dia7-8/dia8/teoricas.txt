@@ -1,0 +1,22 @@
+Questão Dissertativa
+
+1) O switch case é recomandado quando há diversas opções, como o sistema de um banco, o if else é mais utilizado para operar entre duas possibilidades.
+
+Questão de Múltipla Escolha
+
+2) B
+
+Questão de Caixa de Múltiplas Escolhas
+
+3) Se não houver break ao final de um case, a execução continuará para o próximo case / O switch case é mais eficiente que if...else para comparar uma variável com muitos valores possíveis.
+
+Questão Verdadeiro ou Falso
+
+4) F V V F
+
+Questão de Associação
+
+5) 1 - C
+   2 - A
+   3 - D
+   4 - B

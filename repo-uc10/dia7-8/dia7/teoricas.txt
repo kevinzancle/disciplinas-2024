@@ -1,0 +1,22 @@
+Questões de Múltipla Escolha
+
+1) A
+2) B
+
+Questões de Caixa de Múltiplas Escolhas
+
+1) if if...else   if...else if if...else if...else  switch (todas)
+2) &&  || !
+
+Questões Verdadeiro ou Falso
+
+1) Falso
+2) Verdadeiro
+3) Verdadeiro
+
+Questões de Associação
+
+1 - B
+2 - D
+3 - A
+4 - C
