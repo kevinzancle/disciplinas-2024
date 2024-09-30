@@ -1,0 +1,39 @@
+a. Questão Dissertativa:
+Explique a diferença principal entre o loop for...in e o loop for...of em JavaScript. Dê um exemplo de situação em que seria mais apropriado usar cada um deles.
+
+for..in é quando voce precisa percorrer as propriedades de um objeto, e o for…of quando voce precisa percorrer os elementos de uma coleção onde ordem e valores são importantes. Ou seja o loop for of itera diretamente sobre os valores, e o loop for in itera sobre as chaves
+
+b. Questão de Múltipla Escolha:
+Qual é a saída do seguinte código?
+
+for (let i = 0; i < 3; i++) {
+  console.log(i);
+}
+A) 1 2 3
+X) 0 1 2
+C) 0 1 2 3
+D) 1 2
+
+c. Questão de Caixa de Múltiplas Escolhas:
+Quais das seguintes afirmações sobre o loop for em JavaScript são verdadeiras? (Selecione todas as corretas)
+
+X□A inicialização no loop for é executada apenas uma vez.
+X□ A condição no loop for é verificada antes de cada iteração.
+X□ A expressão final no loop for é executada após cada iteração.
+X□ O loop for sempre precisa ter os três componentes (inicialização, condição, expressão final) preenchidos.
+□ É possível ter múltiplas expressões na inicialização e na expressão final do loop for.
+
+d. Questões Verdadeiro ou Falso:
+O loop for...in é recomendado para iterar sobre arrays em JavaScript. 
+Falso
+
+O loop for...of pode ser usado para iterar sobre as propriedades de um objeto simples. 
+Falso
+
+e. Questão de Associação:
+Associe os loops com suas características mais apropriadas:
+
+for B
+for...in C
+for...of A
+A. Melhor para iterar sobre os valores de um array ( ) B. Permite controle preciso sobre o número de iterações ( ) C. Usado para iterar sobre as propriedades de um objeto ( )

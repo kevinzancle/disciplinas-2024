@@ -1,0 +1,38 @@
+Questões Dissertativas
+
+1) Push manda para o final e unshift manda para o início.
+2) O reduce pode ser útil para armazenamento, por exemplo uma sequência numérica ou cálculo grande.
+3) O foreach executa uma operção para cada elelento, já o map cria um novo array para aplicar as mudanças. map é útil para transformar dados e foreach para modificar um array de maneira específica para cada elemento
+4) sparce arrays ocorrem quando ele possui valores vazios dentro dele.
+
+Questões de Múltipla Escolha (apenas uma resposta correta)
+
+1) A
+2) B
+3) B
+4) A
+5) A
+
+Questões de Caixa de Múltiplas Escolhas (com duas até todas as respostas corretas)
+
+1) push() / sort() / reverse()
+2) Sempre retorna um único valor / Pode ser usado para transformar um array em um objeto / Requer um valor inicial como segundo argumento / Pode implementar a funcionalidade de map() e filter()
+3) let arr = new Array();
+
+Questões Verdadeiro ou Falso
+
+1) F
+2) F
+3) V
+4) F
+5) V
+
+Questões de Associação entre Linhas e Colunas
+
+1. map() 	    A. Remove o primeiro elemento do array B
+2. filter() 	B. Cria um novo array com os resultados da função C
+3. shift() 	    C. Cria um novo array com elementos que passam no teste A
+4. reduce() 	D. Executa uma função redutora no array D
+5. slice() 	    E. Retorna uma cópia superficial de uma porção do array E
+
+

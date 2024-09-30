@@ -1,0 +1,30 @@
+Questões Dissertativas
+
+1- O for é utilizado quando se sabe ou se estioma a quantidade de vezes que o bloco deve ser executado, diferente do while.
+2- Quando eu sei que o bloco será executado várias vezes dependendo do estado de uma condição.
+3- Um loop infinito ocorre quando a condição de inicialização nunca muda seu estado (true/false). Para evitar é preciso prestar atenção na lógica do código, por exemplo:  while(2>1). Dois sempre será maior que 1
+
+Questões de Múltipla Escolha
+
+1)A
+2)C
+
+Questões de Caixa de Múltiplas Escolhas
+
+1) A condição é verificada no início de cada iteração / Pode-se usar break para sair do loop prematuramente / A condição deve ser uma expressão booleana
+2) Garantir que a condição eventualmente se torne falsa / Usar variáveis de controle para gerenciar o loop / Evitar modificar a variável de controle fora do loop
+
+Questões Verdadeiro ou Falso
+
+1) F
+2) V
+3) F
+4) V
+
+Questão de Associação
+
+1. while 	    a) Verifica-se no início de cada iteração 5
+2. do...while 	b) Executa o bloco pelo menos uma vez antes de verificar a condição 2
+3. break 	    c) Sai imediatamente do loop 3
+4. continue 	d) Pula para a próxima iteração do loop 4
+5. Condição 	e) Estrutura de repetição básica em JavaScript 1
