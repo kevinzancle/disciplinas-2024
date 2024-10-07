@@ -1,0 +1,8 @@
+{
+    "nomeDoLivro": "Your Name",
+    "quemEscreveu": "Makoto Shinkai",
+    "numeroMagicoDoLivro": "978-0268106883",
+    "anoQueFoiPublicado": 2016,
+    "tiposDeHistoria": ["Fantasia", "Romance"],
+    "taEmprestado": false
+  }
