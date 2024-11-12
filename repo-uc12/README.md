@@ -14,14 +14,6 @@ Cada projeto se torna mais complexo à medida que aprendemos novas técnicas e p
 - **CSS3**: Estilização da página, incluindo layouts responsivos.
 - **JavaScript**: Interatividade e funcionalidades dinâmicas.
 
-## Projetos
-
-1. **Projeto 1**: Descrição breve do primeiro projeto.
-2. **Projeto 2**: Descrição breve do segundo projeto.
-3. **Projeto 3**: Descrição breve do terceiro projeto.
-   
-(Adicione mais projetos conforme necessário)
-
 ## Instalação
 
 Para rodar qualquer um dos projetos localmente:
